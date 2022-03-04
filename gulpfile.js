@@ -4,7 +4,7 @@ var tsProject = ts.createProject("tsconfig.json");
 var del = require("del");
 
 gulp.task("typescript", () => {
-	return tsProject.src().pipe(tsProject()).js.pipe(gulp.dest("./"));
+	return tsProject.src().pipe(tsProject()).js.pipe(gulp.dest("./dist"));
 });
 
 gulp.task("build-clean", () => {
