@@ -1,3 +1,57 @@
-{
-    "test": "werks?" 
-}
+[
+	{
+		"question": "Jaka jest inna nazwa na pasożyctwo?",
+		"answer": "Parazytyzm",
+		"reward": 500
+	},
+	{
+		"question": "Czy jemioła to pasożyt?",
+		"answer": "Tak",
+		"reward": 100
+	},
+	{
+		"question": "Do jakiego rzędu należy jemioła?",
+		"answer": "Sandałowce",
+		"reward": 1000
+	},
+	{
+		"question": "Zdefiniuj pojęcie \"pasożyt.\"",
+		"answer": "Pasożyt to osobnik, który czerpie korzyści z innej jednostki.",
+		"reward": 200
+	},
+	{
+		"question": "Jakie zwierzę jest żywicielem tasiemca uzbrojonego?",
+		"answer": "Świnia",
+		"reward": 300
+	},
+	{
+		"question": "Czym żywi się dzbanecznik?",
+		"answer": "Owadami",
+		"reward": 150
+	},
+	{
+		"question": "Podaj przykład objawów choroby pasożytniczej (3).",
+		"answer": "np. Brak apetytu, biegunka, problemy z trawieniem i krążeniem, kaszel, osłabienie oraz swędzenie skóry",
+		"reward": 300
+	},
+	{
+		"question": "Podaj przykład objawów toksoplazmozy (2).",
+		"answer": "np. gorączka, ból głowy, zapalenie opon mózgowych, powiększenie śledziony i wątroby",
+		"reward": 400
+	},
+	{
+		"question": "Co to jest Helminoterapia?",
+		"answer": "Leczenie pasożytami",
+		"reward": 500
+	},
+	{
+		"question": "W którym jelicie mogą być owsiki?",
+		"answer": "W jelicie grubym",
+		"reward": 350
+	},
+	{
+		"question": "Do czego używane są narządy czepne?",
+		"answer": "Pasożyty używają",
+		"reward": 200
+	}
+]

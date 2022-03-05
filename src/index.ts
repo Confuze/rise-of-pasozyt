@@ -12,6 +12,10 @@ app.get("/", (req, res) => {
 	res.render("index", { title: "Strona główna" });
 });
 
+app.get("/pytanie", (req, res) => {
+	res.render("pytanie", { title: "Pytanie", questions: questions });
+});
+
 app.use(express.static(__dirname + "/public"));
 
 app.use((req, res) => {

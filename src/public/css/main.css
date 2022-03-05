@@ -6,7 +6,7 @@
 }
 
 :root {
-	font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1980 - 300)));
+	font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1980 - 300)));
 }
 
 body,
@@ -27,16 +27,45 @@ html {
 }
 
 main {
+	display: flex;
+	justify-content: center;
 	width: 100%;
+}
+
+.header_main {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	margin-top: 1.5rem;
+	padding: 1rem 2rem;
+	width: calc(100% - 4rem);
 }
 
 .header_title {
 	text-align: center;
-	width: 80%;
+}
+
+.header_button {
+	padding: 1rem;
+	background-color: rgb(96, 96, 255);
+	color: white !important;
+	text-decoration: none !important;
+	border-radius: 0.25rem;
+	margin: 0.5rem;
+	text-align: center;
+}
+
+.header_links {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	margin-top: 0.5rem;
+	width: 100%;
+}
+
+details {
+	align-self: flex-start;
+	padding: 1rem;
+	font-size: 1.25rem;
 }
 
 @media screen and (min-width: 600px) {
@@ -49,18 +78,16 @@ main {
 		text-align: center;
 		width: 40%;
 	}
-}
 
-.header_button {
-	font-size: 1.5rem;
-	padding: 1rem;
-	background-color: rgb(96, 96, 255);
-	color: white !important;
-	text-decoration: none !important;
-	border-radius: 0.25rem;
-	margin: 0.5rem;
-}
+	.header_main {
+		width: 50%;
+	}
 
-.header_links {
-	margin-top: 2rem;
+	.header_links {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin-top: 0.5rem;
+		width: 100%;
+	}
 }

@@ -1,3 +1,7 @@
+<%
+    const question = questions[Math.floor(Math.random() * questions.length)]
+%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,10 +15,16 @@
         </figure>
         <main>
             <div class="header_main">
-                <h1 class="header_title">Witamy na Stronie Głównej planszówki Rise of Pasożyt</h1>
+                <h1 class="header_title">Pytanie: <%= question.question %></h1>
+                <p>Nagroda: <%= question.reward %> pc</p>
+                <details>
+                    <summary>Pokaż odpowiedź</summary>
+                    <%= question.answer %>
+                </details>
                 <div class="header_links">
                     <a class="header_button" href="/pytanie">Wylosuj pytanie</a>
                     <a class="header_button" href="/szansa">Wylosuj szansę</a>
+                </div>
             </div>
         </main>
     </header>
