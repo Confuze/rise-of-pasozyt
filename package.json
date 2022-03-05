@@ -7,7 +7,7 @@
     "start:gulp": "npm-run-all gulp start",
     "gulp": "gulp",
     "start": "node ./dist/index.js",
-    "dev": "nodemon --watch src -e ts,ejs --exec npm run start:gulp"
+    "dev": "nodemon --watch src -e * --exec npm run start:gulp"
   },
   "keywords": [],
   "author": "",

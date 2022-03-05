@@ -5,14 +5,14 @@ const app: Application = express();
 
 const questions = JSON.parse(readFileSync(__dirname + "/data/questions.json", "utf-8"));
 
-console.log(questions);
-
 app.set("views", __dirname + "/views");
 app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
-	res.render("index", { questions });
+	res.render("index", { title: "Strona główna" });
 });
+
+app.use(express.static(__dirname + "/public"));
 
 app.use((req, res) => {
 	res.status(404).send("404 not found");
