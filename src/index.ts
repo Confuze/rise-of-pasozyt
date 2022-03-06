@@ -26,8 +26,7 @@ app.get("/szansa", (req, res) => {
 app.use(express.static(__dirname + "/public"));
 
 app.use((req, res) => {
-	// res.status(404).send("404 not found");
-	res.redirect("/");
+	res.status(404).send("404 not found");
 });
 
 const PORT = process.env.PORT || 3000;

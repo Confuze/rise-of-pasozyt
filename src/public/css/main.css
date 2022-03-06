@@ -24,12 +24,7 @@ html {
 
 .header_image {
 	width: 100%;
-}
-
-main {
-	display: flex;
-	justify-content: center;
-	width: 100%;
+	height: auto;
 }
 
 .header_main {
@@ -68,19 +63,19 @@ details {
 	font-size: 1.25rem;
 }
 
-@media screen and (min-width: 600px) {
+summary {
+	cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
 	.header_image {
-		height: 40%;
+		height: 50vh;
 		width: auto;
 	}
 
 	.header_title {
 		text-align: center;
 		width: 40%;
-	}
-
-	.header_main {
-		width: 50%;
 	}
 
 	.header_links {

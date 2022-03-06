@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html dir="ltr" lang="pl">
 <head>
 <%- include("./partials/head.ejs") %>
+    <link rel="canonical" href="https://rise-of-pasozyt.herokuapp.com/szansa">
+    <meta property="og:url" content="https://rise-of-pasozyt.herokuapp.com/szansa">
 </head>
 <body>
-    <header>
-        <figure class="header_figure">
-            <img class="header_image" width="50%" src="https://i.giphy.com/media/117nq2kn9CWoPm/giphy.webp" alt="Gif z pasożytem" longdesc="Źródło: giphy.com">
-            <figcaption class="header_caption">Źródło: <a href="https://giphy.com/gifs/117nq2kn9CWoPm">giphy.com</a></figcaption>
-        </figure>
-        <main>
-            <div class="header_main">
-                <h1 class="header_title">Szansa: <%= chance.title %></h1>
-                <p><%= chance.result %></p>
-                <div class="header_links">
-                    <a class="header_button" href="/pytanie">Wylosuj pytanie</a>
-                    <a class="header_button" href="/szansa">Wylosuj szansę</a>
+    <main>
+        <header>
+            <figure class="header_figure">
+                <img class="header_image" src="/assets/pasozyt.webp" alt="Gif z pasożytem">
+                <figcaption class="header_caption">Źródło: <a href="https://giphy.com/gifs/117nq2kn9CWoPm">giphy.com</a></figcaption>
+            </figure>
+                <div class="header_main">
+                    <h1 class="header_title">Szansa: <%= chance.title %></h1>
+                    <p><%= chance.result %></p>
+                    <div class="header_links">
+                        <a class="header_button" href="/pytanie">Wylosuj pytanie</a>
+                        <a class="header_button" href="/szansa">Wylosuj szansę</a>
+                    </div>
                 </div>
-            </div>
-        </main>
-    </header>
+        </header>
+    </main>
 </body>
 </html>
