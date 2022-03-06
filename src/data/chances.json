@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Napadły cię pasożyty w nocy",
+        "result": "Tracisz 200 pc"
+    },
+    {
+        "title": "Pasożytnicza policja przyłapała cię na przestępstwie podatkowym, w które wrobił cię tasiemiec",
+        "result": "Idziesz do więzienia na 2 rundy"
+    },
+    {
+        "title": "Podejmujesz się bezinteresownej walce z pasożytami, co docenia Burmistrz, dając ci zniżkę",
+        "result": "Jeśli w następnym ruchu wylosujesz pasożyta, będziesz mógł go kupić za 75% ceny"
+    },
+    {
+        "title": "Podczas niedzielnego obiadu z rodziną okrada cię tasiemiec uzbrojony",
+        "result": "Tracisz 300 pc i twoja rodzina jest przerażona"
+    },
+    {
+        "title": "Musisz zapłacić okup, bo pasożyty porwały twoją babcię",
+        "result": "Tracisz 300 pc"
+    },
+    {
+        "title": "Trafiasz szóstkę na \"Pasotto\"",
+        "result": "Zdobywasz 1000 pc"
+    },
+    {
+        "title": "Poszedłeś do kasyna, ale pasożytnicy gangsterzy okradli cię",
+        "result": "Tracisz 200 pc"
+    },
+    {
+        "title": "Pasożyty osłabiły twój organizm i złapałeś grypę",
+        "result": "Musisz zostać w łóżku i nie możesz się ruszać w następnej rundzie"
+    },
+    {
+        "title": "Wygrałeś loterię internetową pod tytułem \"SuperOwsik\"",
+        "result": "Zdobywasz 1000 pc"
+    },
+    {
+        "title": "Zatrudniasz się jako pracownik w sklepie \"OWSIKEA\" i otrzymujesz wypłatę",
+        "result": "Zdobywasz 500 pc"
+    },
+    {
+        "title": "Wyeliminowałeś pasożyty w domu sąsiada, a ten jest ci wdzięczny",
+        "result": "Zdobywasz 250 pc"
+    }
+]

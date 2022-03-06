@@ -4,6 +4,7 @@ import { readFileSync } from "fs";
 const app: Application = express();
 
 const questions = JSON.parse(readFileSync(__dirname + "/data/questions.json", "utf-8"));
+const chances = JSON.parse(readFileSync(__dirname + "/data/chances.json", "utf-8"));
 
 app.set("views", __dirname + "/views");
 app.set("view engine", "ejs");
@@ -13,7 +14,13 @@ app.get("/", (req, res) => {
 });
 
 app.get("/pytanie", (req, res) => {
-	res.render("pytanie", { title: "Pytanie", questions: questions });
+	const question = questions[Math.floor(Math.random() * questions.length)];
+	res.render("pytanie", { title: "Pytanie", question: question });
+});
+
+app.get("/szansa", (req, res) => {
+	const chance = chances[Math.floor(Math.random() * chances.length)];
+	res.render("szansa", { title: "Szansa", chance: chance });
 });
 
 app.use(express.static(__dirname + "/public"));
