@@ -5,7 +5,7 @@
 		"reward": 500
 	},
 	{
-		"question": "Czy jemioła to pasożyt?",
+		"question": "Czy jemioła jest pasożytem?",
 		"answer": "Tak",
 		"reward": 100
 	},
@@ -53,5 +53,161 @@
 		"question": "Do czego używane są narządy czepne?",
 		"answer": "Pasożyty używają",
 		"reward": 200
+	},
+	{
+		"question": "Podaj 3 praykłady pasożytów zewnętrznych.",
+		"answer": "Kleszcze, pijawki, wszy, pchły, komary",
+		"reward": 250
+	},
+	{
+		"question": "Podaj 3 przykłady pasożytów wewnętrznych.",
+		"answer": "Tasiemce, owsiki, glisty ludzkie ",
+		"reward": 200
+	},
+	{
+		"question": "Zdefiinuj pojęcię \"pasożytnictwo\".",
+		"answer": " Zależność, w której jeden organizm (pasożyt) żyje kosztem innego organizmu zwanego żywicielem.",
+		"reward": 300
+	},
+	{
+		"question": "Jakie narządy  czepne występują u pasożytów wewnętrznych?",
+		"answer": "Przyssawki, haczyki",
+		"reward": 250
+	},
+	{
+		"question": "Jakie narządy  czepne występują u pasożytów zewnętrznych?",
+		"answer": "Odnóża czepne, przyssawki.",
+		"reward": 250
+	},
+	{
+		"question": "W co wyposażone są pasożty zewnętrzne w celu pobierania pokarmu?",
+		"answer": "W specjalne aparaty gębowe.",
+		"reward": 200
+	},
+	{
+		"question": "W jaki sposób pasożyty zewnętrzne utrudniają wykrycie ich obecności przez żywiciela?",
+		"answer": "Wydzielają specjalne substancje znieczulające. ",
+		"reward": 150
+	},
+	{
+		"question": "W jaki sposób pasożyty wewnętrzne utrudniają wykrycie ich obecności przez żywiciela?",
+		"answer": "Mają ciała pokryte substancjami chroniącymi przed strawieniem i reakcją układu odpornościowego. ",
+		"reward": 300
+	},
+	{
+		"question": "Jakie substancje są zawarte w ślinie pijawki lekarskiej i co one powodują?",
+		"answer": "Hirudyna, zapobiega ona krzepnięciu krwi. Histamina, rozszarzająca maczumia krwionośne żywiciela. W ślinie zawarta jest także substancja znieczulająca, która powoduje, że przecięcie skóry jest bezbolesne. ",
+		"reward": 500
+	},
+	{
+		"question": "Co umożliwia pijawce pobieranie pokarmu?",
+		"answer": "Przednia przyssawka.",
+		"reward": 200
+	},
+	{
+		"question": "Co ułatwia pijawce przytwierdzenie się do żywiciela?",
+		"answer": "Tylna przyssawka.",
+		"reward": 200
+	},
+	{
+		"question": "W co zaopatrzone szą szczęki?",
+		"answer": "Szczęki zaopatrzone sa w liczne ząbki.",
+		"reward": 250
+	},
+	{
+		"question": "Co umożliwiają szczęki?",
+		"answer": "Umożliwiaja przecięcie powłokm skórnych.",
+		"reward": 250
+	},
+	{
+		"question": "Gdzie przyczepia się tasiemiec uzbrojony?",
+		"answer": "Tasiemiec uzbrojony przyczepia się do jelita żywiciela.",
+		"reward": 250
+	},
+	{
+		"question": "Gdzie u tasiemca uzbrojonego znajdują się przyssawki i haczyki?",
+		"answer": "Na główce.",
+		"reward": 150
+	},
+	{
+		"question": "D;aczego tasiemiec uzbrojony nie ma własnego układu pokarmowego?",
+		"answer": "Ponieważ żyje w jelicie człowieka i ma dostęp do substancji pokarmowych.",
+		"reward": 300
+	},
+	{
+		"question": "Jakie jest ciało kleszcza? (chodzi o budowę)",
+		"answer": "Grzbieto-brzusznie, spłaszczone ",
+		"reward": 300
+	},
+	{
+		"question": "Co utrudnia budowa ciała u kleszczy?",
+		"answer": "Utrudnia usunięcie pasożyta",
+		"reward": 200
+	},
+	{
+		"question": "Opisz odnóża Wesza głowowa.",
+		"answer": "Krótkie, wygięte do środka, z zakrzywionymi pazurkami.",
+		"reward": 250
+	},
+	{
+		"question": "Czym żywi się wesz głowowa?",
+		"answer": "Krwią.",
+		"reward": 200
+	},
+	{
+		"question": "Za pomocą jakiego narządu wesz głowowa pobiera pożywienie?",
+		"answer": "Za pomocą gryząco-ssącego aparatu gębowego",
+		"reward": 300
+	},
+	{
+		"question": "Co robi wesz głowowa ze złożonymi jajami?",
+		"answer": "Mocno je przyczepia do włosów",
+		"reward": 250
+	},
+	{
+		"question": "Co pełni funkcję aparatu ssącego u pijawki?",
+		"answer": "Silnie umięśniona gardziel i przełyk.",
+		"reward": 350
+
+	},
+	{
+		"question": "Gdzie u pijawki gromadzi się krew pobrana od żywiciela?",
+		"answer": "Krew pobrana od żywiciela gromadzi się w uchyłkach przewodu pokarmowego.",
+		"reward":  300
+	},
+	{
+		"question": "Ile pijawka może przetrwać bez pobierania pokarmu?",
+		"answer": "2 lata. ",
+		"reward": 200
+	},
+	{
+		"question": "Jaki wpływ na żywiciela mają pasożyty żywiące się jego tkankami?",
+		"answer": "Osłabiają organizm żywiciela.",
+		"reward": 150
+	},
+	{
+		"question": "Jaki wpływ na żywiciela mają pasożyty żywiące się jego sybstancjami pokarmowymi? ",
+		"answer": "Zatruwają organizm żywiciela.",
+		"reward": 150
+	},
+	{
+		"question": "Jakie choroby przenoszą kleszcze?",
+		"answer": "Borelioza i kleszczowe zapalenie mózgu.",
+		"reward": 200
+	},
+	{
+		"question": "Przykład pasożytu, który żywi się trawą i zbożem.",
+		"answer": "Bułwianka czerwona.",
+		"reward": 300
+	},
+	{
+		"question": "Co powoduje Bułwianka czerwona?",
+		"answer": "Bułwianka czerwona powoduje silne zatrucia.",
+		"reward": 250
+	},
+	{
+		"question": "Opisz krótko łusiewnika różowego. ",
+		"answer": " Roślina pasożytnicza, która za pomocą korzeni przekształconych w ssawki pobiera z drzew substancje organiczne oraz wodę z solami mineralnymi.",
+		"reward": 800
 	}
 ]

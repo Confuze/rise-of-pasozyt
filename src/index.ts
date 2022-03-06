@@ -19,11 +19,12 @@ app.get("/pytanie", (req, res) => {
 app.use(express.static(__dirname + "/public"));
 
 app.use((req, res) => {
-	res.status(404).send("404 not found");
+	// res.status(404).send("404 not found");
+	res.redirect("/");
 });
 
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-	console.log(`Listening on ${PORT}, happy ruining your life while trying to fix bugs :)`);
+	console.log(`Listening on http://127.0.0.1:${PORT}, happy ruining your life while trying to fix bugs :)`);
 });
