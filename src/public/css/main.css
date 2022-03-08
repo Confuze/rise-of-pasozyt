@@ -31,8 +31,7 @@ html {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	padding: 1rem 2rem;
-	width: calc(100% - 4rem);
+	padding: 1rem 1.5rem;
 }
 
 .header_title {
@@ -45,7 +44,7 @@ html {
 	color: white !important;
 	text-decoration: none !important;
 	border-radius: 0.25rem;
-	margin: 0.5rem;
+	margin: .5rem;
 	text-align: center;
 }
 
@@ -53,13 +52,12 @@ html {
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
-	margin-top: 0.5rem;
-	width: 100%;
+	padding: 0 1.5rem;
 }
 
 details {
 	align-self: flex-start;
-	padding: 1rem;
+	padding: .5rem;
 	font-size: 1.25rem;
 }
 
@@ -73,8 +71,7 @@ summary {
 		width: auto;
 	}
 
-	.header_title {
-		text-align: center;
+	header {
 		width: 40%;
 	}
 
@@ -83,7 +80,6 @@ summary {
 		flex-direction: row;
 		justify-content: center;
 		margin-top: 0.5rem;
-		width: 100%;
 	}
 
 	details {

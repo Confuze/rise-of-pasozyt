@@ -10,9 +10,11 @@
         <%- include("./partials/image.ejs") %>
         <div class="header_main">
             <header>
-                <h1 class="header_title">Wyrzucona liczba: <%= Math.ceil(Math.random() * 6) %></h1>
+                <!-- <h1 class="header_title" style="font-size: 4rem;">00:00</h1> -->
+                <h1 class="header_title"> Pozostały czas: <span id="time">30.00</span></h1>
             </header>
         </div>
+        <script type="text/javascript" src="ts/stoper.js"></script>
         <%- include("./partials/buttons.ejs") %>
     </main>
 </body>

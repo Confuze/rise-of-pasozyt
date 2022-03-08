@@ -7,18 +7,18 @@
 </head>
 <body>
     <main>
-        <header>
-            <%- include("./partials/image.ejs") %>
-                <div class="header_main">
-                    <h1 class="header_title">Pytanie: <%= question.question %></h1>
-                    <p>Nagroda: <%= question.reward %> pc</p>
-                    <details>
-                        <summary>Pokaż odpowiedź</summary>
-                        <%= question.answer %>
-                    </details>
-                    <%- include("./partials/buttons.ejs") %>
-                </div>
-        </header>
+        <%- include("./partials/image.ejs") %>
+        <div class="header_main">
+            <header>
+                <h1 class="header_title">Pytanie: <%= question.question %></h1>
+            </header>
+            <p>Nagroda: <%= question.reward %> pc</p>
+            <details>
+                <summary>Pokaż odpowiedź</summary>
+                <%= question.answer %>
+            </details>
+        </div>
+        <%- include("./partials/buttons.ejs") %>
     </main>
 </body>
 </html>

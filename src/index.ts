@@ -24,7 +24,11 @@ app.get("/szansa", (req, res) => {
 });
 
 app.get("/kostka", (req, res) => {
-	res.render("kostka", { title: "Losowa liczba (kostka)" });
+	res.render("kostka", { title: "Rzut kostką" });
+});
+
+app.get("/stoper", (req, res) => {
+	res.render("stoper", { title: "Stoper" });
 });
 
 app.use(express.static(__dirname + "/public"));
