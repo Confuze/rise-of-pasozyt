@@ -23,6 +23,10 @@ app.get("/szansa", (req, res) => {
 	res.render("szansa", { title: "Szansa", chance: chance });
 });
 
+app.get("/kostka", (req, res) => {
+	res.render("kostka", { title: "Losowa liczba (kostka)" });
+});
+
 app.use(express.static(__dirname + "/public"));
 
 app.use((req, res) => {
