@@ -7,14 +7,14 @@
 </head>
 <body>
     <main>
-        <header>
-            <%- include("./partials/image.ejs") %>
-                <div class="header_main">
-                    <h1 class="header_title">Szansa: <%= chance.title %></h1>
-                    <p><%= chance.result %></p>
-                    <%- include("./partials/buttons.ejs") %>
-                </div>
-        </header>
+        <%- include("./partials/image.ejs") %>
+        <div class="header_main">
+            <header>
+                <h1 class="header_title">Szansa: <%= chance.title %></h1>
+            </header>
+            <p><%= chance.result %></p>
+        </div>
+        <%- include("./partials/buttons.ejs") %>
     </main>
 </body>
 </html>
