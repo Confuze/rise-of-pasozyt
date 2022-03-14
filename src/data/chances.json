@@ -42,5 +42,49 @@
     {
         "title": "Wyeliminowałeś pasożyty w domu sąsiada, a ten jest ci wdzięczny",
         "result": "Zdobywasz 250 pc"
+    },
+    {
+        "title": "Podejmujesz się wolontaryjnej pracy związanej z eliminowaniem pasożytów",
+        "result": "To wolontariat, nie dostajesz pieniędzy, ale masz satysfakcję"
+    },
+    {
+        "title": "Padasz ofiarą kradzieży pasożyto-kieszonkowej",
+        "result": "Tracisz 250 pc i masz podartą kieszeń"
+    },
+    {
+        "title": "Podejmujesz się próby sprzedania spreju antypasożytniczego, ale nikt go nie kupuje",
+        "result": "Tracisz 300 pc, bo musiałeś opłacić stoisko"
+    },
+    {
+        "title": "Tworzysz grę internetową o pasożytach i dodajesz do niej reklamy",
+        "result": "Reklamodawcy płacą ci 500 pc"
+    },
+    {
+        "title": "Nagrywasz film, w którym mówisz o zagrożeniach związanych z pasożytami",
+        "result": "Twórcy PasoTube płacą ci 400 pc za szerzenie ważnych informacji"
+    },
+    {
+        "title": "Karmisz pasożyty, a te odwdzięczają ci się nagrodą pieniężną",
+        "result": "Zdobywasz 400 pc"
+    },
+    {
+        "title": "Pasożyt cię gryzie i daje ci moc latania",
+        "result": "Przenieś się na dowolne pole (nie dostajesz pieniędzy za przejście przez start)"
+    },
+    {
+        "title": "Naruszyłeś przestrzeń prywatną pasożyta",
+        "result": "Idziesz do więzienia na następną rundę"
+    },
+    {
+        "title": "Magiczny pasożyt daje ci supermoce",
+        "result": "Możesz się przenieść o dowolną liczbę pól z zakresu 1-10"
+    },
+    {
+        "title": "Spotykasz złośliwą jemiołę, która cię okrada",
+        "result": "Tracisz ostatnio kupionego pasożyta i nie dostajesz za niego pieniędzy"
+    },
+    {
+        "title": "Spotykasz świętą jemiołę, która daje ci magiczną moc",
+        "result": "Jeśli w następnym ruchu staniesz na polu z pasożytem, będziesz mógł go otrzymać za darmo"
     }
 ]
