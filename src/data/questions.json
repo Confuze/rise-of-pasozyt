@@ -15,11 +15,6 @@
 		"reward": 1000
 	},
 	{
-		"question": "Zdefiniuj pojęcie \"pasożyt.\"",
-		"answer": "Pasożyt to osobnik, który czerpie korzyści z innej jednostki.",
-		"reward": 200
-	},
-	{
 		"question": "Jakie zwierzę jest żywicielem tasiemca uzbrojonego?",
 		"answer": "Świnia",
 		"reward": 300
@@ -31,37 +26,37 @@
 	},
 	{
 		"question": "Podaj przykład objawów choroby pasożytniczej (3).",
-		"answer": "np. Brak apetytu, biegunka, problemy z trawieniem i krążeniem, kaszel, osłabienie oraz swędzenie skóry",
+		"answer": "np. Brak apetytu, biegunka, problemy z trawieniem i krążeniem, kaszel, osłabienie oraz swędzenie skóry.",
 		"reward": 300
 	},
 	{
 		"question": "Podaj przykład objawów toksoplazmozy (2).",
-		"answer": "np. gorączka, ból głowy, zapalenie opon mózgowych, powiększenie śledziony i wątroby",
+		"answer": "np. gorączka, ból głowy, zapalenie opon mózgowych, powiększenie śledziony i wątroby.",
 		"reward": 400
 	},
 	{
 		"question": "Co to jest Helminoterapia?",
-		"answer": "Leczenie pasożytami",
+		"answer": "Leczenie pasożytami.",
 		"reward": 500
 	},
 	{
 		"question": "W którym jelicie mogą być owsiki?",
-		"answer": "W jelicie grubym",
+		"answer": "W jelicie grubym.",
 		"reward": 350
 	},
 	{
 		"question": "Do czego używane są narządy czepne?",
-		"answer": "Pasożyty używają",
+		"answer": "Umożliwiają one przytwierdzanie się do ciała żywiciela.",
 		"reward": 200
 	},
 	{
 		"question": "Podaj 3 praykłady pasożytów zewnętrznych.",
-		"answer": "Kleszcze, pijawki, wszy, pchły, komary",
+		"answer": "Kleszcze, pijawki, wszy, pchły, komary.",
 		"reward": 250
 	},
 	{
 		"question": "Podaj 3 przykłady pasożytów wewnętrznych.",
-		"answer": "Tasiemce, owsiki, glisty ludzkie ",
+		"answer": "Tasiemce, owsiki, glisty ludzkie.",
 		"reward": 200
 	},
 	{
@@ -71,11 +66,11 @@
 	},
 	{
 		"question": "Jakie narządy  czepne występują u pasożytów wewnętrznych?",
-		"answer": "Przyssawki, haczyki",
+		"answer": "Przyssawki, haczyki.",
 		"reward": 250
 	},
 	{
-		"question": "Jakie narządy  czepne występują u pasożytów zewnętrznych?",
+		"question": "Jakie narządy czepne występują u pasożytów zewnętrznych?",
 		"answer": "Odnóża czepne, przyssawki.",
 		"reward": 250
 	},
@@ -86,7 +81,7 @@
 	},
 	{
 		"question": "W jaki sposób pasożyty zewnętrzne utrudniają wykrycie ich obecności przez żywiciela?",
-		"answer": "Wydzielają specjalne substancje znieczulające. ",
+		"answer": "Wydzielają specjalne substancje znieczulające.",
 		"reward": 150
 	},
 	{
@@ -97,7 +92,7 @@
 	{
 		"question": "Jakie substancje są zawarte w ślinie pijawki lekarskiej i co one powodują?",
 		"answer": "Hirudyna, zapobiega ona krzepnięciu krwi. Histamina, rozszarzająca maczumia krwionośne żywiciela. W ślinie zawarta jest także substancja znieczulająca, która powoduje, że przecięcie skóry jest bezbolesne. ",
-		"reward": 500
+		"reward": 1000
 	},
 	{
 		"question": "Co umożliwia pijawce pobieranie pokarmu?",
@@ -110,7 +105,7 @@
 		"reward": 200
 	},
 	{
-		"question": "W co zaopatrzone szą szczęki?",
+		"question": "W co zaopatrzone są szczęki?",
 		"answer": "Szczęki zaopatrzone sa w liczne ząbki.",
 		"reward": 250
 	},
@@ -177,7 +172,7 @@
 	},
 	{
 		"question": "Ile pijawka może przetrwać bez pobierania pokarmu?",
-		"answer": "2 lata. ",
+		"answer": "2 lata.",
 		"reward": 200
 	},
 	{
