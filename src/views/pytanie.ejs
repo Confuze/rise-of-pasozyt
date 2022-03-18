@@ -13,10 +13,24 @@
                 <h1 class="header_title">Pytanie: <%= question.question %></h1>
             </header>
             <p>Nagroda: <%= question.reward %> pc</p>
-            <details>
-                <summary>Pokaż odpowiedź</summary>
-                <%= question.answer %>
-            </details>
+            <% if (question.answer) { %>
+                    <details>
+                    <summary>Pokaż odpowiedź</summary>
+                    <%= question.answer %>
+                </details>
+            <% } else { %>
+                <ul>
+                    <%- question.a ? `<li class="a" onclick="checkAnswer('a', '${question.correct}')">a. ${question.a}</li>` : "" %>
+                    <%- question.b ? `<li class="b" onclick="checkAnswer('b', '${question.correct}')">b. ${question.b}</li>` : "" %>
+                    <%- question.c ? `<li class="c" onclick="checkAnswer('c', '${question.correct}')">c. ${question.c}</li>` : "" %>
+                    <%- question.d ? `<li class="d" onclick="checkAnswer('d', '${question.correct}')">d. ${question.d}</li>` : "" %>
+                    <div class="comment">(Naciśnij na poprawną odpowiedź)</div>
+                </ul>
+
+                <div class="result"></div>
+
+                <script type="text/javascript" src="/ts/question.js"></script>
+            <% } %>
         </div>
         <%- include("./partials/buttons.ejs") %>
     </main>

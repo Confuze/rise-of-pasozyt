@@ -65,6 +65,28 @@ summary {
 	cursor: pointer;
 }
 
+ul {
+	list-style-type: none;
+	font-size: 1.25rem;
+	padding: .5rem;
+	align-self: flex-start;
+}
+
+.comment {
+	font-size: .8rem;
+	padding-top: .25rem;
+}
+
+.result {
+	font-size: 1.25rem;
+	padding: .5rem;
+	text-align: center;
+}
+
+.result:empty {
+    padding: 0;
+}
+
 @media screen and (min-width: 800px) {
 	.header_image {
 		height: 50vh;
@@ -75,6 +97,11 @@ summary {
 		width: 40%;
 	}
 
+	ul {
+		width: 35vw;
+		align-self: center;
+	}
+
 	.header_links {
 		display: flex;
 		flex-direction: row;
@@ -83,7 +110,11 @@ summary {
 	}
 
 	details {
-		align-self: center;
-		width: 60vw;
+		width: 35vw;
+		align-self: center;	
+	}
+
+	.result {
+		width: 35vw;
 	}
 }

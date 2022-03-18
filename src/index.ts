@@ -1,7 +1,7 @@
 import express, { Application } from "express";
 import { readFileSync } from "fs";
 
-const app: Application = express();
+const app = express();
 
 const questions = JSON.parse(readFileSync(__dirname + "/data/questions.json", "utf-8"));
 const chances = JSON.parse(readFileSync(__dirname + "/data/chances.json", "utf-8"));
