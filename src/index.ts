@@ -27,10 +27,6 @@ app.get("/kostka", (req, res) => {
 	res.render("kostka", { title: "Rzut kostką" });
 });
 
-app.get("/stoper", (req, res) => {
-	res.render("stoper", { title: "Stoper" });
-});
-
 app.use(express.static(__dirname + "/public"));
 
 app.use((req, res) => {
