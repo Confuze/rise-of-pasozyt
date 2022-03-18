@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="pl">
+<head>
+<%- include("./partials/head.ejs") %>
+    <link rel="canonical" href="https://rise-of-pasozyt.herokuapp.com/">
+    <meta property="og:url" content="https://rise-of-pasozyt.herokuapp.com/">
+</head>
+<body>
+    <main>
+        <%- include("./partials/image.ejs") %>
+        <div class="header_main">
+            <header>
+                <h1 class="header_title">Zasady rise of pasożyt</h1>
+            </header>
+            <article>
+                <section>
+                    <h3>Wymagania</h3>
+                    <p>
+                        Aby zagrać w grę będziesz potrzebował:
+                        <ul>
+                            <li><a href="/assets/plansza.png">Planszę do gry</a></li>
+                            <li>Od 2 do 6 osób</li>
+                            <li>Pionki</li>
+                            <li>Minimalnie jeden telefon</li>
+                        </ul>
+                    </p>
+                </section>
+                <section>
+                    <h3>Cel gry</h3>
+                    <p>
+                        Celem gry jest zostanie z pieniędzmi jako jedyni. (Inni muszą zbankrutować). Możesz to osiągnąć kupując pasożyty.
+                    </p>
+                </section>
+                <section>
+                    <h3>Zasady gry</h3>
+                    <p>
+                        Na początku wszyscy gracze losują kostkę. Osoba, która wylosuje największą liczbę będzie pierwsza w kolejce. Reszta kolejki jest ustalana według wskazówek zegara. Gdy jest twoja kolej na ruch rzucasz kostką. Jeśli wejdziesz na pole z pytaniem lub szansą możesz ją wylosować na stronie. Jeśli wejdziesz na pole z pasożytem, możesz go kupić za cenę na planszy. Jeśli ktoś wejdzie na twojego pasożyta musi ci zapłacić cenę, za którą kupiłeś pasożyta. Jeśli osoba nie ma jak ci zapłacić, bankrutuje i odpada z gry.
+                    </p>
+                </section>
+            </article>
+        </div>
+        <%- include("./partials/buttons.ejs") %>
+    </main>
+</body>
+</html>

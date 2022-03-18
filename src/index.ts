@@ -27,6 +27,10 @@ app.get("/kostka", (req, res) => {
 	res.render("kostka", { title: "Rzut kostką" });
 });
 
+app.get("/zasady", (req, res) => {
+	res.render("zasady", { title: "Zasady gry" });
+});
+
 app.use(express.static(__dirname + "/public"));
 
 app.use((req, res) => {

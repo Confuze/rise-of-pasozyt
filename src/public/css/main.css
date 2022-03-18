@@ -38,13 +38,19 @@ html {
 	text-align: center;
 }
 
+article {
+	padding-top: .5rem;
+	width: 100%;
+	align-self: flex-start;
+}
+
 .header_button {
 	padding: 1rem;
 	background-color: rgb(96, 96, 255);
 	color: white !important;
 	text-decoration: none !important;
 	border-radius: 0.25rem;
-	margin: .5rem;
+	margin: .5rem 0;
 	text-align: center;
 }
 
@@ -66,9 +72,17 @@ summary {
 }
 
 ul {
+	padding: 0 1rem .5rem 1rem;
 	list-style-type: none;
-	font-size: 1.25rem;
+}
+
+p {
+	margin-bottom: .5rem;
+}
+
+.answers {
 	padding: .5rem;
+	font-size: 1.25rem;
 	align-self: flex-start;
 }
 
@@ -93,8 +107,13 @@ ul {
 		width: 40%;
 	}
 
-	ul {
+	.answers {
 		width: 35vw;
+		align-self: center;
+	}
+	
+	article {
+		width: 45vw;
 		align-self: center;
 	}
 
@@ -103,6 +122,10 @@ ul {
 		flex-direction: row;
 		justify-content: center;
 		margin-top: 0.5rem;
+	}
+
+	.header_button {
+		margin: .5rem;
 	}
 
 	details {

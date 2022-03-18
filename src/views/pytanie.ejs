@@ -19,7 +19,7 @@
                     <%= question.answer %>
                 </details>
             <% } else { %>
-                <ul>
+                <ul class="answers">
                     <%- question.a ? `<li class="a" onclick="checkAnswer('a', '${question.correct}')">a. ${question.a}</li>` : "" %>
                     <%- question.b ? `<li class="b" onclick="checkAnswer('b', '${question.correct}')">b. ${question.b}</li>` : "" %>
                     <%- question.c ? `<li class="c" onclick="checkAnswer('c', '${question.correct}')">c. ${question.c}</li>` : "" %>
