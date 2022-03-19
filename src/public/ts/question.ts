@@ -23,27 +23,25 @@ const checkAnswer = (answer:string, correct:string) => {
     }
 }
 
-let setseconds = 3000;
-let interval:any = null;
+const start = Date.now()
+const end = start + 30000
 
-const watch = () => {
-    if (setseconds <= 0) { 
+const frame = () => {
+    const elapsed = end - Date.now()
+
+    if (elapsed <= 0) { 
         finished()
         result.innerText = "Czas upłynął! Niestety nie dostajesz nagrody pieniężnej. Powodzenia w następnej rundzie!"
         return
     };
-
-    console.log(setseconds)
-
-    setseconds--
-
-    let secs:Number | String = Math.floor(setseconds / 100)
-    let setsecs:Number | String = setseconds % 100
+    
+    let secs: Number | String = Math.floor(elapsed / 1000)
+    let setsecs: Number | String = elapsed % 100
 
     secs = secs < 10 ? "0" + secs : secs
     setsecs = setsecs < 10 ? "0" + setsecs : setsecs
 
-    result.innerHTML = `Pozostały czas: ${secs}.${setsecs}` 
-};
+    result.innerText = `Pozostały czas: ${secs}.${setsecs}`
+}
 
-interval = setInterval(watch, 10)
+const interval = setInterval(frame, 30)
