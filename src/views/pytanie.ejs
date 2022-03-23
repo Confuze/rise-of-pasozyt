@@ -20,10 +20,10 @@
                 </details>
             <% } else { %>
                 <ul class="answers">
-                    <%- question.a ? `<li class="a" onclick="checkAnswer('a', '${question.correct}')">a. ${question.a}</li>` : "" %>
-                    <%- question.b ? `<li class="b" onclick="checkAnswer('b', '${question.correct}')">b. ${question.b}</li>` : "" %>
-                    <%- question.c ? `<li class="c" onclick="checkAnswer('c', '${question.correct}')">c. ${question.c}</li>` : "" %>
-                    <%- question.d ? `<li class="d" onclick="checkAnswer('d', '${question.correct}')">d. ${question.d}</li>` : "" %>
+                    <%- question.a ? `<li class="a pointer" onclick="checkAnswer('a', '${question.correct}')">a. ${question.a}</li>` : "" %>
+                    <%- question.b ? `<li class="b pointer" onclick="checkAnswer('b', '${question.correct}')">b. ${question.b}</li>` : "" %>
+                    <%- question.c ? `<li class="c pointer" onclick="checkAnswer('c', '${question.correct}')">c. ${question.c}</li>` : "" %>
+                    <%- question.d ? `<li class="d pointer" onclick="checkAnswer('d', '${question.correct}')">d. ${question.d}</li>` : "" %>
                     <div class="comment">(Naciśnij na poprawną odpowiedź)</div>
                 </ul>
 

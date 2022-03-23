@@ -87,6 +87,10 @@ p {
 	align-self: flex-start;
 }
 
+.pointer {
+	cursor: pointer	;
+}
+
 .comment {
 	font-size: .8rem;
 	padding-top: .25rem;

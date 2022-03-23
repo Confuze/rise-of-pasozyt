@@ -2,10 +2,12 @@ const result = document.querySelector(".result") as HTMLElement;
 const answers = document.querySelectorAll("li");
 
 const finished = () => {
-    for (const element of answers as any) { // Had to cast it as any as typescript for whatever reason thinks NodeListOf<HTMLLIElement> can't be iterated through (thanks whoever made that)
+    for (const element of answers) {
         element.removeAttribute("onclick")
-        clearInterval(interval);
+        element.classList.remove("pointer")
     }
+
+    clearTimeout(interval);
 }
 
 const checkAnswer = (answer:string, correct:string) => {
@@ -23,25 +25,28 @@ const checkAnswer = (answer:string, correct:string) => {
     }
 }
 
-const start = Date.now()
+const start = document.timeline.currentTime! // Think of it as Date.now(); also returns a ms value; just slightly faster.
 const end = start + 30000
+let interval:any;
 
 const frame = () => {
-    const elapsed = end - Date.now()
+    const elapsed = Math.floor(end - document.timeline.currentTime!)
 
     if (elapsed <= 0) { 
         finished()
         result.innerText = "Czas upłynął! Niestety nie dostajesz nagrody pieniężnej. Powodzenia w następnej rundzie!"
         return
     };
-    
-    let secs: Number | String = Math.floor(elapsed / 1000)
-    let setsecs: Number | String = elapsed % 100
+
+    let secs: number | string = Math.floor(elapsed / 1000)
+    let setsecs: number | string = elapsed % 100
 
     secs = secs < 10 ? "0" + secs : secs
     setsecs = setsecs < 10 ? "0" + setsecs : setsecs
 
     result.innerText = `Pozostały czas: ${secs}.${setsecs}`
+
+    interval = setTimeout(() => requestAnimationFrame(frame), 15)
 }
 
-const interval = setInterval(frame, 30)
+frame()
