@@ -1,10 +1,11 @@
-import express, { Application } from "express";
+import express from "express";
 import { readFileSync } from "fs";
 
 const app = express();
 
-const questions = JSON.parse(readFileSync(__dirname + "/data/questions.json", "utf-8"));
-const chances = JSON.parse(readFileSync(__dirname + "/data/chances.json", "utf-8"));
+let questions:any[] = JSON.parse(readFileSync(__dirname + "/data/questions.json", "utf-8"));
+let chances:any[] = JSON.parse(readFileSync(__dirname + "/data/chances.json", "utf-8"));
+let questionsCopy:any[] = [], chancesCopy:any[] = [];
 
 app.set("views", __dirname + "/views");
 app.set("view engine", "ejs");
@@ -13,13 +14,29 @@ app.get("/", (req, res) => {
 	res.render("index", { title: "Strona główna" });
 });
 
+
 app.get("/pytanie", (req, res) => {
-	const question = questions[Math.floor(Math.random() * questions.length)];
+	let question:any;
+	
+	if (!questions.length) { questions = questionsCopy; questionsCopy = [] }
+	const i = Math.floor(Math.random() * questions.length);
+	question = questions.splice(i, 1)[0]
+	questionsCopy.push(question)
+	
 	res.render("pytanie", { title: "Pytanie", question: question });
 });
 
 app.get("/szansa", (req, res) => {
-	const chance = chances[Math.floor(Math.random() * chances.length)];
+	let chance:any;
+	
+	if (!chances.length) { chances = chancesCopy; chancesCopy = [] }
+	const i = Math.floor(Math.random() * chances.length);
+	chance = chances.splice(i, 1)[0]
+	chancesCopy.push(chance)
+
+	console.log(chance, chances.length, i);
+	
+
 	res.render("szansa", { title: "Szansa", chance: chance });
 });
 
