@@ -45,12 +45,21 @@
 	{
 		"question": "Podaj przykład objawów choroby pasożytniczej (3).",
 		"answer": "np. Brak apetytu, biegunka, problemy z trawieniem i krążeniem, kaszel, osłabienie oraz swędzenie skóry.",
-		"reward": 300
+		"reward": 500
 	},
 	{
-		"question": "Podaj przykład objawów toksoplazmozy (2).",
-		"answer": "np. gorączka, ból głowy, zapalenie opon mózgowych, powiększenie śledziony i wątroby.",
-		"reward": 400
+		"question": "Wyjaśnij pojęcie reinwazji",
+		"answer": "Reinwazja to ponowne zakażenie się żywiciela tym samym gatunkiem pasożytu, po poprzednim wyleczeniu się żywiciela.",
+		"reward": 800
+	},
+	{
+		"question": "Jak nazywa się choroba pasożytnicza, która powoduje gorączkę, ból głowy, zapalenie opon mózgowych, powiększenie śledziony i wątroby. Świnie przechodzą tą chorobę bezobjawowo",
+		"a": "Włośnica",
+		"b": "Toksoplazmoza",
+		"c": "Sarkocystoza",
+		"d": "Świerzb",
+		"correct": "b",
+		"reward": 500
 	},
 	{
 		"question": "Co to jest Helminoterapia?",
@@ -59,7 +68,7 @@
 		"c": "Aparat gębowy typowy dla pasożytów",
 		"d": "Terapia dla pacjentów z chorobami pasożytniczymi",
 		"correct": "b",
-		"reward": 500
+		"reward": 350
 	},
 	{
 		"question": "W którym jelicie mogą być owsiki?",
@@ -80,14 +89,88 @@
 		"reward": 200
 	},
 	{
-		"question": "Podaj 3 praykłady pasożytów zewnętrznych.",
-		"answer": "Kleszcze, pijawki, wszy, pchły, komary.",
-		"reward": 250
+		"question": "Który z tych pasożytów NIE jest pasożytem zewnętrznym",
+		"a": "Chejletiele",
+		"b": "Komary",
+		"c": "Świerzbowiec",
+		"d": "Bruzdogłowiec szeroki",
+		"correct": "d",
+		"reward": 600
 	},
 	{
-		"question": "Podaj 3 przykłady pasożytów wewnętrznych.",
-		"answer": "Tasiemce, owsiki, glisty ludzkie.",
+		"question": "Oceń prawdziwość zdania: Żywicielem pośrednim tasiemca bąblowcowego jest człowiek.",
+		"a": "Prawda",
+		"b": "Fałsz",
+		"correct": "a",
+		"reward": 600
+	},
+	{
+		"question": "Wymień przykład, który NIE jest cechą tasiemca bąblowcowego.",
+		"a": "Pasożytuje on w organizmach psowatych",
+		"b": "Ma on do 6mm długości",
+		"c": "Mają do 12 haczyków na główce",
+		"d": "Zakażenie może występować po spożyciu niemytych owoców leśnych",
+		"correct": "c",
+		"reward": 600
+	},
+	{
+		"question": "Czym jest endopasożyt?",
+		"a": "Pasożytem, którego żywicielem jest człowiek",
+		"b": "Pasożytem widocznym gołym okiem",
+		"c": "Pasożytem wewnętrznym",
+		"d": "Pasożytem, który może samemu pozyskiwać pokarm bez pasożytnictwa",
+		"correct": "c",
+		"reward": 600
+	},
+	{
+		"question": "Co to jest skoleks?",
+		"a": "Głowka pasożyta",
+		"b": "Rodaj przyssawki",
+		"c": "Inna nazwa na wągry",
+		"d": "Pasożyt, pasożytujący w kościach organizmu",
+		"correct": "a",
+		"reward": 500
+	},
+	{
+		"question": "Jak nazywa się pierwsze stadium larwalne tasiemców?",
+		"a": "Cenur",
+		"b": "Onkosfera",
+		"c": "Koracidium",
+		"d": "Cysticerkoid",
+		"correct": "b",
+		"reward": 800
+	},
+	{
+		"question": "Jak nazywa się rząd bruzdogłowca szerokiego?",
+		"a": "Pseudophyllidea",
+		"b": "Diphyllobotrium",
+		"c": "Tasiemce",
+		"d": "Diphyllobothriidae",
+		"correct": "a",
+		"reward": 1200
+	},
+	{
+		"question": "Czy kornik drukarz jest pasożytem?",
+		"a": "Tak",
+		"b": "Nie",
+		"correct": "b",
 		"reward": 200
+	},
+	{
+		"question": "Czy wypławek biały to pasożyt?",
+		"a": "Tak",
+		"b": "Nie",
+		"correct": "b",
+		"reward": 400
+	},
+	{
+		"question": "Larwy czyich pasożytów powodują muszycę?",
+		"a": "Muchówek",
+		"b": "Tasiemców",
+		"c": "Płazińców",
+		"d": "Glist",
+		"correct": "a",
+		"reward": 500
 	},
 	{
 		"question": "Zdefiinuj pojęcię \"pasożytnictwo\".",
@@ -95,13 +178,13 @@
 		"reward": 300
 	},
 	{
-		"question": "Jakie narządy  czepne występują u pasożytów wewnętrznych?",
+		"question": "Jakie narządy czepne występują u pasożytów wewnętrznych?",
 		"a": "Czepki",
 		"b": "Przyssawki i haczyki",
 		"c": "Haczyki i harpuny",
 		"d": "Czepki i przyssawki",
 		"correct": "b",
-		"reward": 250
+		"reward": 300
 	},
 	{
 		"question": "Jakie narządy czepne występują u pasożytów zewnętrznych?",
@@ -110,6 +193,217 @@
 		"c": "Haczyki",
 		"d": "Odnóża czepne i przyssawki",
 		"correct": "d",
-		"reward": 250
+		"reward": 300
+	},
+	{
+		"question": "Oceń prawdziwość zdania: Pasożyty zewnętrzne wydzielają specjalne substancje znieczulające aby utrudnić ich wykrycie przez żywiciela.",
+		"a": "Prawda",
+		"b": "Fałsz",
+		"correct": "a",
+		"reward": 200
+	},
+	{
+		"question": "W jaki sposób pasożyty wewnętrzne utrudniają wykrycie ich obecności przez żywiciela?",
+		"answer": "Mają ciała pokryte substancjami chroniącymi przed strawieniem i reakcją układu odpornościowego. ",
+		"reward": 300
+	},
+	{
+		"question": "Wyjaśnij, dlaczego hirudyna w ślinie pijawki lekarskiej może nam pomóc.",
+		"a": "Relaksuje ona nasz mózg",
+		"b": "Zapobiega ona krzepnięciu krwi",
+		"c": "Pomaga zwalczyć niektóre pasożyty wewnętrzne",
+		"d": "Jest bardzo dobrym lekarstwem na choroby zakaźne",
+		"correct": "b",
+		"reward": 450
+	},
+	{
+		"question": "Gdzie może występować histamina?",
+		"a": "W aparacie gębowym tasiemca uzbrojonego",
+		"b": "W główce glisty ludzkiej",
+		"c": "W ślinie pijawki lekarskiej",
+		"d": "W szczękoczułkach kleszczy",
+		"correct": "c",
+		"reward": 450
+	},
+	{
+		"question": "Oceń prawdziwość zdania: Ślina pijawek lekarskich zawiera substancje znieczulające.",
+		"a": "Prawda",
+		"b": "Fałsz",
+		"correct": "a",
+		"reward": 200
+	},
+	{
+		"question": "Oceń prawdziwość zdania: Kleszcze należą do podgromady roztoczy.",
+		"a": "Prawda",
+		"b": "Fałsz",
+		"correct": "a",
+		"reward": 300
+	},
+	{
+		"question": "Co umożliwia pijawce pobieranie pokarmu?",
+		"a": "Przednia przyssawka.",
+		"b": "Tylnia przyssawka",
+		"c": "Haczyki",
+		"d": "Czepiaki tylne",
+		"correct": "a",
+		"reward": 200
+	},
+	{
+		"question": "Czy tasiemiec uzbrojony jest wyposażony w szczęki?",
+		"a": "Tak",
+		"b": "Nie",
+		"correct": "b",
+		"reward": 350
+	},
+	{
+		"question": "Do czego pasożyty używają szczęki?",
+		"answer": "Do przecinania powłók skórnych",
+		"reward": 400
+	},
+	{
+		"question": "Oceń prawdziwość zdania: Pasożyty używają przyssawek i haczyków znajdujących się na ich ogonach do przyczepiania się do organizmu żywiciela.",
+		"a": "Prawda",
+		"b": "Fałsz",
+		"correct": "b",
+		"reward": 400
+	},
+	{
+		"question": "Wyjaśnij, czym jest proglotyd.",
+		"a": "Jest to substancja znieczulająca wykorzystywana przez pasożyty do maskowania się.",
+		"b": "Jest to segment ciała pasożyta",
+		"c": "Jest to część aparatu gębowego tasiemca bąblowcowego",
+		"d": "Jest to fragment glisty ludzkiej",
+		"correct": "b",
+		"reward": 500
+	},
+	{
+		"question": "Który rodzaj tasiemca częściej występuje ciepłym i suchym klimacie",
+		"a": "Tasiemiec uzbrojony",
+		"b": "Tasiemiec karłowaty",
+		"c": "Tasiemiec bąblowcowy",
+		"d": "Tasiemiec psi",
+		"correct": "b",
+		"reward": 600
+	},
+	{
+		"question": "Który rodzaj tasiemca wywołuje chorobę o nazwie dypylidoza",
+		"a": "Tasiemiec uzbrojony",
+		"b": "Tasiemiec karłowaty",
+		"c": "Tasiemiec bąblowcowy",
+		"d": "Tasiemiec psi",
+		"correct": "d",
+		"reward": 500
+	},
+	{
+		"question": "Jak nazywa się układ pokarmowy tasiemca uzbrojonego",
+		"answer": "Podchwytliwe pytanie - tasiemce nie mają układu pokarmowego",
+		"reward": 1000
+	},
+	{
+		"question": "Dlaczego kleszcz ma spłaszczoną, grzbieto-brzuszną budowę?",
+		"answer": "Utrudnia to jego usunięcie",
+		"reward": 500
+	},
+	{
+		"question": "Który z przykładów NIE opisuje budowy odnóży wszy głowowej",
+		"a": "Krótkie",
+		"b": "Wesz ludzka posiada ich 6 par",
+		"c": "Wygięte do środka",
+		"d": "Z zakrzywionymi pazurkami",
+		"correct": "b",
+		"reward": 600
+	},
+	{
+		"question": "Czym żywi się wesz głowowa?",
+		"a": "Cebulkami włosowymi",
+		"b": "Naskórkiem",
+		"c": "Cukrem",
+		"d": "Krwią",
+		"correct": "d",
+		"reward": 450
+	},
+	{
+		"question": "Za pomocą jakiego aparatu wesz głowowa pobiera pokarm?",
+		"a": "Gryząco-ssącącego",
+		"b": "Liżacego",
+		"c": "Ortopteroidalnego",
+		"d": "Kłująco-ssącego",
+		"correct": "a",
+		"reward": 450
+	},
+	{
+		"question": "Jak nazywają się jaja wszy głowowej?",
+		"a": "Wągry",
+		"b": "Ortopeidy",
+		"c": "Gnidy",
+		"d": "Weszniki",
+		"correct": "c",
+		"reward": 600
+	},
+	{
+		"question": "Jak długo pijawka może przetrwać bez pożywienia?",
+		"a": "4 godziny",
+		"b": "3 dni",
+		"c": "Miesiąc",
+		"d": "2 lata",
+		"correct": "d",
+		"reward": 600
+	},
+	{
+		"question": "Która z tych chorób NIE jest przenoszona przez kleszcze?",
+		"a": "Babezjoza",
+		"b": "Bolerioza",
+		"c": "Zapalanie mózgu",
+		"d": "Bąblowica",
+		"correct": "d",
+		"reward": 500
+	},
+	{
+		"question": "Czym żywi się buławinka czerwona?",
+		"a": "Krwią i naskórkiem",
+		"b": "Kapustą",
+		"c": "Zbożem i trawą",
+		"d": "Substancjami odżywczymi drzew",
+		"correct": "d",
+		"reward": 500
+	},
+	{
+		"question": "Oceń prawdziwość zdania: Buławinka czerwona powoduje silne zatrucia.",
+		"a": "Prawda",
+		"b": "Fałsz",
+		"correct": "a",
+		"reward": 300
+	},
+	{
+		"question": "Oceń prawdziwość zdania: Buławinka czerwona jest gatunkiem przydatnym w rolnictwie.",
+		"a": "Prawda",
+		"b": "Fałsz",
+		"correct": "b",
+		"reward": 300
+	},
+	{
+		"question": "Jak nazywa się rodzina łuskiewnika różowego?",
+		"a": "Zarazowate",
+		"b": "Okrytonasienne",
+		"c": "Jasnotowce",
+		"d": "Astropodobne",
+		"correct": "a",
+		"reward": 700
+	},
+	{
+		"question": "Oceń prawdziwość zdania: W polsce można spotkać łuskiewnika różowego.",
+		"a": "Prawda",
+		"b": "Fałsz",
+		"correct": "a",
+		"reward": 300
+	},
+	{
+		"question": "Jak nazywają się rośliny pasożytnicze?",
+		"a": "Półpasożyty",
+		"b": "Parazytofity",
+		"c": "Lepiężniki",
+		"d": "Rośliny bezzieleniowe",
+		"correct": "b",
+		"reward": 600
 	}
 ]

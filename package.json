@@ -1,7 +1,7 @@
 {
   "name": "riseofpasozyt",
   "version": "1.0.0",
-  "description": "",
+  "description": "Dumb website made for educational purposes.",
   "main": "./dist/index.js",
   "scripts": {
     "build": "gulp",
@@ -9,9 +9,9 @@
     "start": "node ./dist/index.js",
     "dev": "nodemon --watch src -e * --exec npm run start:gulp"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["website", "parasites"],
+  "author": "Confuze",
+  "license": "MIT",
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/node": "^17.0.21",

@@ -84,7 +84,43 @@
         "result": "Tracisz ostatnio kupionego pasożyta i nie dostajesz za niego pieniędzy"
     },
     {
-        "title": "Spotykasz świętą jemiołę, która daje ci magiczną moc",
-        "result": "Jeśli w następnym ruchu staniesz na polu z pasożytem, będziesz mógł go otrzymać za darmo"
+        "title": "Dostajesz nagrodę nobla za prowadzenie badań dotyczących chorób pasożytniczych",
+        "result": "Otrzymujesz 1000 pc, ale dziennikarze nie pozwalają ci wyjść z domu - nie ruszasz się przez następne dwie rundy"
+    },
+    {
+        "title": "Tasiemiec bąblowcowy zdradza ci sekret do inwestycji",
+        "result": "Następnego pasożyta możesz kupić za 75% jego ceny"
+    },
+    {
+        "title": "Kleszcz wywołuje u ciebie boleriozę",
+        "result": "Nie możesz się ruszać przez dwie następne tury, ale otrzymujesz odszkodowanie w wysokości 550 pc"
+    },
+    {
+        "title": "Świdrowiec amerykański cię porywa",
+        "result": "Stań na polu ze świdrowcem amerykańskim - nie pobierasz pieniędzy za przejście przez start"
+    },
+    {
+        "title": "Projektujesz infografikę o wszach morskich",
+        "result": "Twój klient płaci ci za nią 300 pc"
+    },
+    {
+        "title": "Spotykasz złośliwą jemiołę, która cię okrada",
+        "result": "Tracisz ostatnio kupionego pasożyta i nie dostajesz za niego pieniędzy"
+    },
+    {
+        "title": "Tęgoryjec kradnie ci twoją kartę stałego klienta w sklepie \"OWSIKEA\"",
+        "result": "Płacisz 350 pc za odnowienie karty"
+    },
+    {
+        "title": "Wynajdujesz nowe lekarstwo na choroby pasożytnicze",
+        "result": "Apteki płacą ci 700 pc, a ty stajesz się światowej sławy lekarzem"
+    },
+    {
+        "title": "Zdobywasz nagrodę główną w loterii zdrapkowej \"MEGAGLISTA\"",
+        "result": "Otrzymujesz 700 pc"
+    },
+    {
+        "title": "Zajmujesz trzecie miejsce w teleturnieju \"POSTAW NA KLESZCZA\"",
+        "result": "Otrzymujesz 300 pc"
     }
 ]
