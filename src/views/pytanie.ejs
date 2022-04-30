@@ -24,8 +24,8 @@
                     <%- question.b ? `<li class="b pointer" onclick="checkAnswer('b', '${question.correct}')">b. ${question.b}</li>` : "" %>
                     <%- question.c ? `<li class="c pointer" onclick="checkAnswer('c', '${question.correct}')">c. ${question.c}</li>` : "" %>
                     <%- question.d ? `<li class="d pointer" onclick="checkAnswer('d', '${question.correct}')">d. ${question.d}</li>` : "" %>
-                    <div class="comment">(Naciśnij na poprawną odpowiedź)</div>
                 </ul>
+                <div class="comment">(Naciśnij na poprawną odpowiedź)</div>
 
                 <div class="result"></div>
                 <script type="text/javascript" src="/ts/question.js"></script>

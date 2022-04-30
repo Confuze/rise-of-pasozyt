@@ -9,6 +9,17 @@ let questionsCopy:any[] = [], chancesCopy:any[] = [];
 
 app.set("views", __dirname + "/views");
 app.set("view engine", "ejs");
+app.set("view cache", true);
+
+app.use((req, res, next) => {
+	if (req.method === "GET") {
+    	res.set('Cache-control', "public, no-cache, must-revalidate, max-age=31536000, stale-while-revalidate=0"); // 1 year
+	} else {
+		res.set('Cache-control', "no-store");
+	};
+
+	next();
+})
 
 app.get("/", (req, res) => {
 	res.render("index", { title: "Strona główna" });
@@ -34,9 +45,6 @@ app.get("/szansa", (req, res) => {
 	chance = chances.splice(i, 1)[0]
 	chancesCopy.push(chance)
 
-	console.log(chance, chances.length, i);
-	
-
 	res.render("szansa", { title: "Szansa", chance: chance });
 });
 
@@ -48,7 +56,7 @@ app.get("/zasady", (req, res) => {
 	res.render("zasady", { title: "Zasady gry" });
 });
 
-app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/public", { setHeaders: (res, path, stat) => { res.set('Cache-control', "public, no-cache, must-revalidate, max-age=31536000, stale-while-revalidate=0")}}));
 
 app.use((req, res) => {
 	res.status(404).send("404 not found");

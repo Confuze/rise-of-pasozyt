@@ -13,6 +13,7 @@ body,
 html {
 	font-size: 1rem;
 	font-family: "Roboto", sans-serif;
+	/* background-color: red; */
 }
 
 .header_figure {
@@ -82,7 +83,7 @@ p {
 }
 
 .answers {
-	padding: .5rem;
+	padding: .5rem .5rem 0rem .5rem;
 	font-size: 1.25rem;
 	align-self: flex-start;
 }
@@ -94,6 +95,7 @@ p {
 .comment {
 	font-size: .8rem;
 	padding-top: .25rem;
+	padding: 0 .5rem .5rem .5rem;
 }
 
 .result {
@@ -112,7 +114,7 @@ p {
 		width: 40%;
 	}
 
-	.answers {
+	.answers, .comment {
 		width: 35vw;
 		align-self: center;
 	}
