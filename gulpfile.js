@@ -3,12 +3,12 @@ var ts = require("gulp-typescript");
 var tsProject = ts.createProject("tsconfig.json");
 var del = require("del");
 
-gulp.task("typescript", () => {
-	return tsProject.src().pipe(tsProject()).js.pipe(gulp.dest("./dist"));
-});
-
 gulp.task("build-clean", () => {
 	return del(["./dist"]);
+});
+
+gulp.task("typescript", () => {
+	return tsProject.src().pipe(tsProject()).js.pipe(gulp.dest("./dist"));
 });
 
 gulp.task("files", () => {

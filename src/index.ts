@@ -3,8 +3,12 @@ import { readFileSync } from "fs";
 
 const app = express();
 
-let questions: any[] = JSON.parse(readFileSync(__dirname + "/data/questions.json", "utf-8"));
-let chances: any[] = JSON.parse(readFileSync(__dirname + "/data/chances.json", "utf-8"));
+let questions: any[] = JSON.parse(
+	readFileSync(__dirname + "/data/questions.json", "utf-8")
+);
+let chances: any[] = JSON.parse(
+	readFileSync(__dirname + "/data/chances.json", "utf-8")
+);
 let questionsCopy: any[] = [],
 	chancesCopy: any[] = [];
 
@@ -14,7 +18,10 @@ app.set("view cache", true);
 
 app.use((req, res, next) => {
 	if (req.method === "GET") {
-		res.set("Cache-control", "public, no-cache, must-revalidate, max-age=31536000, stale-while-revalidate=0"); // 1 year
+		res.set(
+			"Cache-control",
+			"public, must-revalidate, max-age=36000, stale-while-revalidate=31536000"
+		); // 1 year
 	} else {
 		res.set("Cache-control", "no-store");
 	}
@@ -37,6 +44,10 @@ app.get("/pytanie", (req, res) => {
 	question = questions.splice(i, 1)[0];
 	questionsCopy.push(question);
 
+	res.set(
+		"Cache-control",
+		"private, no-cache, must-revalidate, max-age=31536000, stale-while-revalidate=31536000"
+	);
 	res.render("pytanie", { title: "Pytanie", question: question });
 });
 
@@ -51,10 +62,18 @@ app.get("/szansa", (req, res) => {
 	chance = chances.splice(i, 1)[0];
 	chancesCopy.push(chance);
 
+	res.set(
+		"Cache-control",
+		"private, no-cache, must-revalidate, max-age=31536000, stale-while-revalidate=31536000"
+	);
 	res.render("szansa", { title: "Szansa", chance: chance });
 });
 
 app.get("/kostka", (req, res) => {
+	res.set(
+		"Cache-control",
+		"private, no-cache, must-revalidate, max-age=31536000, stale-while-revalidate=31536000"
+	);
 	res.render("kostka", { title: "Rzut kostką" });
 });
 
@@ -62,13 +81,7 @@ app.get("/zasady", (req, res) => {
 	res.render("zasady", { title: "Zasady gry" });
 });
 
-app.use(
-	express.static(__dirname + "/public", {
-		setHeaders: (res, path, stat) => {
-			res.set("Cache-control", "public, no-cache, must-revalidate, max-age=31536000, stale-while-revalidate=0");
-		}
-	})
-);
+app.use(express.static(__dirname + "/public"));
 
 app.use((req, res) => {
 	res.status(404).send("404 not found");
@@ -77,5 +90,7 @@ app.use((req, res) => {
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-	console.log(`Listening on http://127.0.0.1:${PORT}, happy ruining your life while trying to fix bugs :)`);
+	console.log(
+		`Listening on http://127.0.0.1:${PORT}, happy ruining your life while trying to fix bugs :)`
+	);
 });

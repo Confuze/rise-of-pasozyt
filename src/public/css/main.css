@@ -81,6 +81,10 @@ p {
 	margin-bottom: 0.5rem;
 }
 
+h2 {
+	font-size: 1.25rem;
+}
+
 .answers {
 	padding: 0.5rem 0.5rem 0rem 0.5rem;
 	font-size: 1.25rem;
